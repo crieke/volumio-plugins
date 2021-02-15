@@ -11,7 +11,9 @@
 	"volumio_info": {
 		"prettyName": "Roon Bridge",
 		"icon": "fas fa-volume-up",
-		"plugin_type": "music_service"
+		"plugin_type": "music_service",
+		"is_my_music_plugin":true,
+		"has_configuration":false
 	},
 	"dependencies": {
 		"fs-extra": "^0.28.0",
