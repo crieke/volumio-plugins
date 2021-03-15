@@ -89,6 +89,8 @@ Restart=always
 WantedBy=multi-user.target
 END_SYSTEMD
 
+chown -R volumio:volumio $INSTALL_DIR
+
 echo "Done"
 
 #requred to end the plugin install
